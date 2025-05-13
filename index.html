@@ -10,14 +10,16 @@
                 background-color: lightgoldenrodyellow;
             }
             header h1 {
-                margin-top: 0px;
-                padding-top: 15px;
-                padding-bottom: 15px;
+                margin: 0px;
+                padding-top: 30px;
+                padding-bottom: 30px;
             }
             ul {
                 list-style: none;
                 padding: 0;
+                margin: 0;
                 background-color: lightpink;
+                display: flex;
                 justify-content: center;
             }
             li a {
@@ -26,15 +28,24 @@
                 text-decoration: none;
                 color: black;
             }
-        
-
+            .active {
+                background-color: rgb(236, 125, 153);
+                color: white;
+            }
         </style>
     </head>
     <body>
-        
         <header>
             <h1> S&N Jewellery </h1>
         </header>
-    </body>
-    
+        <nav>
+            <ul>
+                <li><a class="active" href="index.html">Home</a></li>
+                <li><a href="producten: kettingen.html">kettingen</a></li>
+                <li><a href= "producten: armbanen.html">Armbanden</a></li>
+                <li><a href="prodcuten: oorbellen.html">oorbellen</a></li>
+                <li><a href= "producten: ringen.html">ringen</a></li>
+            </ul>
+        </nav>
+     </body>
 </html>
